@@ -1,5 +1,8 @@
 # Find-the-values-of-the-pressure-sensor-to-the-alloy
 
+![photo_2023-09-23_12-19-46](https://github.com/Peyman2012/Find-the-values-of-the-pressure-sensor-to-the-alloy/assets/88220773/8ce4a943-c1a1-44ea-9283-930edab3f6dc)
+
+
 **What is CSV?** 
 
 CSV (Comma Separated Values) is a simple file format used to store tabular data, such as a spreadsheet or database. A CSV file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format.
