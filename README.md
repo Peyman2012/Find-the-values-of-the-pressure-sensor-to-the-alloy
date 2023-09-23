@@ -15,4 +15,4 @@ Storing email in CSV file
 **Reading a CSV file**
 Reading from a CSV file is done using the reader object. The CSV file is opened as a text file with Python’s built-in open() function, which returns a file object. In this example, we first open the CSV file in READ mode, file object is converted to csv.reader object and further operation takes place. Code and detailed explanation is given below.
 
-  import csv
+    import csv
