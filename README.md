@@ -17,12 +17,13 @@ Reading from a CSV file is done using the reader object. The CSV file is opened 
 
     import csv
 
-Here, we first open the CSV file in READ mode. The file object is named as 'f'. The file object is converted to csv.reader object. We save the csv.reader object as 'ha':
+Here, we first open the CSV file in READ mode. The file object is named as 'f'. The file object is converted to csv.reader object. We save the csv.reader object as 'reader':
 
     with open('C:/Users/peyman/pythonProject17/sense.csv','r') as f:
     p=[]
     t=[]
     reader=csv.reader(f)
+
 
 Now, we iterate through the remaining rows using a for loop. Each row is appended to a list called rows. If you try to print each row, one can find that a row is nothing but a list containing all the field values:
 
