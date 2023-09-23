@@ -50,3 +50,7 @@ If the pressure on the alloy is between 0.35 and 0.85, the alloy will be damaged
              print(f'Time : {time[i]} s and Power : {power[i]} result :  This power is dangerous!!!!!!!!!')
          else:
              print(f'Time : {time[i]} s and Power : {power[i]} result : Power is good')
+
+Project output:
+
+![photo_2023-09-23_12-36-07](https://github.com/Peyman2012/Find-the-values-of-the-pressure-sensor-to-the-alloy/assets/88220773/b5e3ea3a-0dd1-4e06-85ca-828bd788dd09)
