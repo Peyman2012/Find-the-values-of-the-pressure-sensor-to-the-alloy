@@ -23,3 +23,15 @@ Here, we first open the CSV file in READ mode. The file object is named as 'f'. 
     p=[]
     t=[]
     reader=csv.reader(f)
+
+Now, we iterate through the remaining rows using a for loop. Each row is appended to a list called rows. If you try to print each row, one can find that a row is nothing but a list containing all the field values:
+
+     for row in reader:
+            t.append(row[0])
+            p.append(row[1])
+     for p in p[1:]:
+            power.append(p)
+     for t in t[1:]:
+            time.append(t)
+
+
