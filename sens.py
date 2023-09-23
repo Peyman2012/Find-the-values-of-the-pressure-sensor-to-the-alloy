@@ -1,9 +1,9 @@
 import csv
+power=[]
+time=[]
 with open('C:/Users/peyman/pythonProject17/sense.csv','r') as f:
     p=[]
     t=[]
-    power=[]
-    time=[]
     reader=csv.reader(f)
     for row in reader:
         t.append(row[0])
