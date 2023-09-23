@@ -27,9 +27,9 @@ Reading from a CSV file is done using the reader object. The CSV file is opened 
 Here, we first open the CSV file in READ mode. The file object is named as 'f'. The file object is converted to csv.reader object. We save the csv.reader object as 'reader':
 
      with open('C:/Users/peyman/pythonProject17/sense.csv','r') as f:
-       p=[]
-       t=[]
-       reader=csv.reader(f)
+         p=[]
+         t=[]
+         reader=csv.reader(f)
 
 
 Now, we iterate through the remaining rows using a for loop. Each row is appended to a list called rows. If you try to print each row, one can find that a row is nothing but a list containing all the field values:
@@ -46,9 +46,9 @@ Now, we iterate through the remaining rows using a for loop. Each row is appende
 If the pressure on the alloy is between 0.35 and 0.85, the alloy will be damaged and broken:
 
        for i in range(len(power)):
-           if float(power[i])>=0.35 and float(power[i])<=0.85:
-               print(f'Time : {time[i]} s and Power : {power[i]} result :  This power is dangerous!!!!!!!!!')
+            if float(power[i])>=0.35 and float(power[i])<=0.85:
+                print(f'Time : {time[i]} s and Power : {power[i]} result :  This power is dangerous!!!!!!!!!')
            else:
-               print(f'Time : {time[i]} s and Power : {power[i]} result : Power is good')
+                print(f'Time : {time[i]} s and Power : {power[i]} result : Power is good')
 
 
