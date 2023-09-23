@@ -50,5 +50,3 @@ If the pressure on the alloy is between 0.35 and 0.85, the alloy will be damaged
                 print(f'Time : {time[i]} s and Power : {power[i]} result :  This power is dangerous!!!!!!!!!')
            else:
                 print(f'Time : {time[i]} s and Power : {power[i]} result : Power is good')
-
-
